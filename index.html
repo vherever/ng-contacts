@@ -1,0 +1,26 @@
+<!doctype html>
+<html ng-app="contactList">
+  <head>
+  	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" href="bootstrap-combined.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+  <body>
+  	<div ng-include="'views/nav.html'"></div>
+    <div ng-view></div>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js">
+    </script>
+    <script src="bower_components/angular-route/angular-route.min.js">
+   	</script>
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/angularfire/dist/angularfire.js"></script>
+    
+
+    <script src="app.js"></script>
+    <script type="text/javascript" src="controllers/controllers.js"></script>
+  </body>
+</html>
